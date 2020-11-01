@@ -35,14 +35,14 @@
     .navigation li a{
         font-size: 10px;
         position: relative;
-        left: 60px;
+        left: 80px;
     }  
     .heading h1{
         font-size: 15px;
     }
 
     .ceo{
-      margin-left: -725px;
+      margin-left: -780px;
         
     }
 }
