@@ -33,7 +33,7 @@
 
 @media only screen and (max-width:600px){
     .navigation li a{
-        font-size: 10px;
+        font-size: 15px;
         position: relative;
         left: 80px;
     }  
@@ -42,7 +42,7 @@
     }
 
     .ceo{
-      margin-left: -780px;
+      margin-left: -770px;
         
     }
 }
