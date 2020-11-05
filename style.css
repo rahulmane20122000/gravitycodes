@@ -67,6 +67,7 @@
     box-shadow: 10px 5px 10px;
     
 }
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 .ceo h2{
     font-family: 'Roboto', sans-serif;
