@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    
+   
+}
+
+.navigation{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(57deg,#cc2b5e, #753a88);
+}
+
+.navigation h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 6.5vh;
+    font-size: 35px;
+}
+
+.founders p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(300%);
+    margin: 20px;
+    
+}
+
+@media only screen and (max-width:650px){
+    .founders p{
+        transform: translateY(50%);
+        font-size: 20px;
+    }
+
+    .navigation h1{
+        font-size: 20px;
+    }
+}
