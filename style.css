@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+
+
 .navigation{
    
     width: 100%;
     height: 15vh;
-    background-color: black;
+    background: linear-gradient(57deg,#cc2b5e, #753a88);
     
 }
 
@@ -36,6 +38,7 @@
         font-size: 15px;
         position: relative;
         left: 40px;
+        
     }  
     .heading h1{
         font-size: 15px;
@@ -43,7 +46,11 @@
 
     .ceo{
       margin-left: -770px;
-        
+      
+    }
+
+    .getstart{
+        margin-left: -1400px;
     }
 }
 
@@ -67,6 +74,28 @@
     position: relative;
     top: 30px;
     
+}
+
+.getstart {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(57deg,#cc2b5e, #753a88);
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 869px;
+    cursor: pointer;
+}
+
+.btn i{
+    
+    margin-left:10px ;
+}
+
+.getstart:hover{
+    transform: scale(1.1);
 }
 
 
