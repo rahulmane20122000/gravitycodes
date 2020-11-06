@@ -117,18 +117,21 @@
 
 @media only screen and (max-width:660px){
     .service{
-        width: 400px;
+        width: 350px;
         height:1070px;
         position: relative;
         left:-600px
         
     }
     .service2{
-        width: 400px;
+        width: 350px;
         height:970px;
         position: relative;
         top: 20px;
         left:-55px
     }
-   
+   .service2 button{
+       position: relative;
+       left: -20px;
+   }
 }
